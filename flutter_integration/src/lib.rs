@@ -19,6 +19,4 @@ pub mod api;
 // 3. Required init function - FRB v2 runtime calls this on startup
 #[flutter_rust_bridge::frb(init)]
 pub fn init_app() {
-    // Default setup; add custom logging/panic hooks here if needed;
-    flutter_rust_bridge::setup_default_user_code_handler();
 }
